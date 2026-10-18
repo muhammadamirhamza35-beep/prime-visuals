@@ -1,2 +1,2 @@
-# prime-visuals
-Prime Visuals: creative agency website. 40+ posters and 10 videos every month. Impact Visuals for your brand.
+# Prime Visuals
+Impact Visuals for every post. Agency website (single-page, plain HTML/CSS).
