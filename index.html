@@ -3,6 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Prime Visuals: 40+ creative posters and 10 videos every month for your brand. Impact Visuals that make people stop scrolling. 3-month plan from ৳30,000.">
+<meta property="og:title" content="Prime Visuals — Impact Visuals for your brand">
+<meta property="og:description" content="40+ creative posters and 10 videos every month. Your on-call creative team.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#3B3BFF">
 <title>Prime Visuals — Impact Visuals for your brand</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -95,6 +100,26 @@ h2{font-size:clamp(32px,4.4vw,52px);font-weight:800;max-width:18ch}
 .plan.main .btn{background:var(--sun);color:#0D1030}
 .tag{align-self:flex-start;background:var(--sun);color:#0D1030;font-weight:700;font-size:14px;padding:3px 12px;border-radius:999px;margin-bottom:14px}
 
+
+/* totals */
+.tot{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:22px}
+.tot div{background:var(--lilac);border-radius:16px;padding:14px 16px}
+.plan.main .tot div{background:rgba(255,255,255,.12)}
+.tot strong{font-family:"Bricolage Grotesque",sans-serif;font-size:38px;font-weight:800;line-height:1;display:block}
+.tot span{font-size:15px;opacity:.8}
+/* why */
+.why .grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:56px;align-items:start}
+.why .note{margin-top:30px;background:var(--sun);color:#0D1030;border-radius:22px;padding:24px 26px}
+.why .note h3{font-size:22px;margin-bottom:8px}
+.why .note p{margin:0;font-size:16px}
+.months{list-style:none;margin:0;padding:0}
+.months li{background:var(--surface);border:1px solid var(--line);border-radius:22px;padding:24px 26px;margin-bottom:14px}
+.months li:last-child{margin-bottom:0}
+.months h3{font-size:24px;margin-bottom:6px}
+.months h3 em{font-style:normal;color:var(--blue);margin-right:8px}
+.months p{margin:0;color:var(--muted);font-size:16px}
+@media (max-width:900px){.why .grid{grid-template-columns:1fr;gap:30px}}
+
 /* process */
 .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:44px;counter-reset:s}
 .step{padding:0 22px 0 0;position:relative;counter-increment:s}
@@ -132,7 +157,7 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
 <body>
 <header><div class="wrap nav">
   <a class="logo" href="#top"><i></i>Prime Visuals</a>
-  <nav><a href="#work">What you get</a><a href="#pricing">Pricing</a><a href="#process">How it works</a><a class="btn" href="#contact">Get started</a></nav>
+  <nav><a href="#work">What you get</a><a href="#pricing">Pricing</a><a href="#why">Why 3 months</a><a href="#process">How it works</a><a class="btn" href="#contact">Get started</a></nav>
 </div></header>
 
 <main id="top">
@@ -167,24 +192,37 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
     <div class="plan main">
       <span class="tag">Start here</span>
       <h3>3 months</h3>
-      <div class="price">৳30,000</div><small>for the 3-month plan</small>
-      <ul><li>40+ posters each month</li><li>10 videos each month</li><li>Revisions on every design</li><li>Files ready for Facebook, Instagram and TikTok</li></ul>
+      <div class="price">৳30,000</div><small>for the 3-month plan</small><div class="tot"><div><strong>120+</strong><span>posters</span></div><div><strong>30</strong><span>videos</span></div></div>
+      <ul><li>40+ posters each month, 120+ in total</li><li>10 videos each month, 30 in total</li><li>Revisions on every design</li><li>Files ready for Facebook, Instagram and TikTok</li></ul>
       <a class="btn" href="#contact">Choose 3 months</a>
     </div>
     <div class="plan">
       <h3>6 months</h3>
-      <div class="price talk">Let’s talk</div><small>Price agreed with you</small>
-      <ul><li>Everything in the 3-month plan</li><li>A better rate for longer work</li><li>Content planned ahead with you</li></ul>
+      <div class="price talk">Let’s talk</div><small>Price agreed with you</small><div class="tot"><div><strong>240+</strong><span>posters</span></div><div><strong>60</strong><span>videos</span></div></div>
+      <ul><li>40+ posters and 10 videos each month</li><li>A better rate for longer work</li><li>Content planned ahead with you</li></ul>
       <a class="btn alt" href="#contact">Ask for a quote</a>
     </div>
     <div class="plan">
       <h3>1 year</h3>
-      <div class="price talk">Let’s talk</div><small>Price agreed with you</small>
-      <ul><li>Everything in the 3-month plan</li><li>Our best rate</li><li>Priority turnaround all year</li></ul>
+      <div class="price talk">Let’s talk</div><small>Price agreed with you</small><div class="tot"><div><strong>480+</strong><span>posters</span></div><div><strong>120</strong><span>videos</span></div></div>
+      <ul><li>40+ posters and 10 videos each month</li><li>Our best rate</li><li>Priority turnaround all year</li></ul>
       <a class="btn alt" href="#contact">Ask for a quote</a>
     </div>
   </div>
 </div></section>
+
+<section id="why" class="why" style="padding-top:20px"><div class="wrap"><div class="grid">
+  <div>
+    <h2>Why we work in 3-month plans.</h2>
+    <p class="lead">A strong page is not built in a week. We need time to learn your brand, and your customers need time to start recognising it. One month is too short for both, so we start at three.</p>
+    <div class="note"><h3>Why not just 1 month?</h3><p>In one month we would spend most of the time learning your brand, and you would be left with a handful of posts and no steady look. Three months gives us time to learn, improve and show results, and keeps your page active long enough for people to notice.</p></div>
+  </div>
+  <ol class="months">
+    <li><h3><em>Month 1</em>We learn your brand</h3><p>We study your products, customers and competitors, then find the colors, style and tone that suit you. Your first posters and videos set the look.</p></li>
+    <li><h3><em>Month 2</em>We sharpen it</h3><p>We see which posts people like and which they skip, and use that to improve every design and video that follows.</p></li>
+    <li><h3><em>Month 3</em>Your brand looks consistent</h3><p>Your page now has a steady rhythm of 120+ posters and 30 videos. Customers start to recognise you at a glance.</p></li>
+  </ol>
+</div></div></section>
 
 <section id="process"><div class="wrap">
   <h2>From brief to posted in four steps.</h2>
